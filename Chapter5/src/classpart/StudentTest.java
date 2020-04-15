@@ -8,6 +8,11 @@ public class StudentTest {
 		studentLee.address = "인천";
 		
 		studentLee.showStudentInfo();
+		
+		Student studentKim = new Student();
+		studentKim.studentName = "김유신";
+		studentKim.address = "경주";
+		studentKim.showStudentInfo();
 	}
 
 }
