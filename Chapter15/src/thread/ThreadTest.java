@@ -50,6 +50,9 @@ public class ThreadTest {
 		th1.start();
 		th2.start();
 		
+		Thread t = Thread.currentThread();
+		System.out.println(t);
+		
 		System.out.println("end");
 	}
 
